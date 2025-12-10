@@ -10,7 +10,10 @@
         "psr-4": {
             "Angearsene\\LaravelTesting\\": "src/",
             "Angearsene\\LaravelTesting\\Tests\\": "tests/"
-        }
+        },
+        "files": [
+            "src/helpers.php"
+        ]
     },
     "authors": [
         {
