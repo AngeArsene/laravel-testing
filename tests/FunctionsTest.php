@@ -12,7 +12,7 @@ use PHPUnit\Framework\TestCase;
 
 final class FunctionsTest extends TestCase
 {
-    public function test_example_function(): void
+    public function test_example_function_returns_hello_world(): void
     {
         $this->assertTrue(function_exists('example_function'));
         $this->assertEquals('Hello, World!', example_function());
