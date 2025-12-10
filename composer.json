@@ -1,0 +1,22 @@
+{
+    "name": "angearsene/laravel-testing",
+    "require": {
+        "laravel/framework": "^12.42"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Angearsene\\LaravelTesting\\": "src/",
+            "Angearsene\\LaravelTesting\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ange Arsene",
+            "email": "nkenmandenga@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
