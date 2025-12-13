@@ -15,6 +15,9 @@
             "src/helpers.php"
         ]
     },
+    "scripts": {
+        "tests": "vendor/bin/phpunit ./tests --colors --testdox --stop-on-failure"
+    },
     "authors": [
         {
             "name": "Ange Arsene",
