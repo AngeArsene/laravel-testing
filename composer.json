@@ -8,15 +8,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Angearsene\\LaravelTesting\\": "src/",
-            "Angearsene\\LaravelTesting\\Tests\\": "tests/"
+            "AngeArsene\\LaravelTesting\\": "src/"
         },
         "files": [
             "src/helpers.php"
         ]
     },
+    "autoload-dev": {
+        "psr-4": {
+            "AngeArsene\\LaravelTesting\\Tests\\": "tests/"
+        }
+    },
     "scripts": {
-        "tests": "vendor/bin/phpunit ./tests --colors --testdox --stop-on-failure"
+        "tests": "vendor/bin/phpunit"
     },
     "authors": [
         {

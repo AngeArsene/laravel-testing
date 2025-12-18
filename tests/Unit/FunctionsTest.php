@@ -2,16 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Angearsene\LaravelTesting\Tests;
-
-require_once __DIR__ . '/../vendor/autoload.php';
+namespace AngeArsene\LaravelTesting\Tests\Unit;
 
 use function array_until;
 use function example_function;
 
-use PHPUnit\Framework\TestCase;
-
-final class FunctionsTest extends TestCase
+final class FunctionsTest extends \PHPUnit\Framework\TestCase
 {
     public function test_example_function_returns_hello_world(): void
     {

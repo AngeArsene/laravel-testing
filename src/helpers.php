@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 if (! function_exists('example_function')) {
     function example_function(): string
     {
@@ -13,7 +15,7 @@ if (! function_exists('array_until')) {
         $index = array_search($stop, $arr);
 
         if ($index === false) {
-            throw new InvalidArgumentException('key does not exists in array');
+            throw new \InvalidArgumentException('key does not exists in array');
         }
 
         return array_slice($arr, 0, $index);
